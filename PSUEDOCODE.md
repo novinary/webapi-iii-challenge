@@ -27,11 +27,17 @@ Delete a new user - done
 Custom middleware to ensure that the user's name is upper-cased before the request reaches the POST or PUT route handlers. - Done
 
 Step 6
-Start working on endpoints for users
 Create a new file called postsRouter.js - Done
 Use require to use postsRouter in js - Done
 Create routers for post - Done
 Use require to import postdb.js - Done
+
+Start working on endpoints for posts
+Get all posts - done
+Get a post by id - done
+Post/insert a new post  - done
+Delete a post by id - done
+Put/update a post - done
 
 
 
