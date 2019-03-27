@@ -20,5 +20,6 @@ Set up Express routers to organise api code - done
 Step 5
 Start working on endpoints
 Get all users - done
+Get a user by id - done
 
 
