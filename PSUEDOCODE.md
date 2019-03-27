@@ -18,8 +18,12 @@ Use built in middleware express.json in server.js - done
 Set up Express routers to organise api code - done
 
 Step 5
-Start working on endpoints
+Start working on endpoints for users
 Get all users - done
 Get a user by id - done
+Get posts by id - done
+Post a new user - done
+Delete a new user - done
+Custom middleware to ensure that the user's name is upper-cased before the request reaches the POST or PUT route handlers.
 
 
