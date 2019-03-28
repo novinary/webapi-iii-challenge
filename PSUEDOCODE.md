@@ -39,5 +39,17 @@ Post/insert a new post  - done
 Delete a post by id - done
 Put/update a post - done
 
+Step 7 
+Deploy api to heroku
+- Add a “start” script that uses node instead of nodemon to run index.js. - Done
+- Make the Port Dynamic
+    install dotenv as a production dependency. - Done
+    change index.js - Done
+    add a .env file to the root folder (next to package.json) with the following content
+    PORT=4444 - Done
+    It is recommended to add .env to .gitignore to prevent it from being uploaded to GitHub.
+
+
+
 
 
