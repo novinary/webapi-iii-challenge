@@ -13,9 +13,10 @@ server.use("/api/users", usersRouter);
 server.use("/api/posts", postsRouter);
 
 server.get('/', (req, res) => {
-
-    res.status(200).json({ 'test': 'just a test' });
-
-});
+    res.send(`
+    <h2>Lambda School</h>
+    <p>Welcome to the Lambda Users and Posts API</p>
+  `);
+}); 
 
 module.exports = server;
